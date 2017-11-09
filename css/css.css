@@ -1,0 +1,320 @@
+#searchbar {
+    width: 90%;
+    height: 2em;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+}
+
+.bth{
+  margin-bottom: 1%;
+}
+hr {
+ margin-top:15px;
+ margin-bottom: 15px;
+ border-top: 1px solid grey;
+}
+
+.blog-post:hover{
+  opacity: 0.5;
+  background-color: orange;
+  transition: ease-out 1s;
+}
+#front-body{
+  overflow-x: hidden;
+}
+/* define a fixed width for the entire menu */
+.navigation {
+  width: 100;
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.b a {
+ margin-bottom: 1%;
+}
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: #C5C5C5;
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+/*
+  we now overwrite the background-color for .submenu links only.
+  CSS reads down the page, so code at the bottom will overwrite the code at the top.
+*/
+
+.submenu a {
+  background-color: #999;
+}
+
+/* hover behaviour for links inside .submenu */
+.submenu a:hover {
+  background-color: #666;
+}
+
+/* this is the initial state of all submenus.
+  we set it to max-height: 0, and hide the overflowed content.
+*/
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
+.navbar-text{
+	color: #ffffff;
+	margin-top: -1%;
+}
+#front-body{
+	margin-top: 4%;
+}
+
+.a2{
+	height:100vh;
+	background-color: #d3d3d3;
+	align-content: center;
+}
+.a{
+	height: 91.5vh;
+	background-color: #d3d3d3;
+	align-content: center;
+}
+.mainmenu li a{
+  padding-left: 20px;
+  }
+.mainmenu li a:hover{
+  padding-left: 50px;
+  opacity: 1.5;
+  transition: ease-out 0.2s;
+}
+.b a{
+  padding:0%;
+}
+
+.item{
+	margin : 0%;
+  padding: 0%;
+  background-color: rgba(155,145,155,0.3);
+}
+.itema{
+  margin : 0%;
+  padding: 0%;
+}
+.itema img{
+  margin: 0%;
+  padding:0%;
+}
+.acceuil{
+  margin : 0%;
+  padding: 0%;
+}
+.acceuil a{
+  padding : 0%;
+}
+.item:hover{
+	opacity: 0.5;
+	transition: ease-out 0.2s;
+}
+.item-description{
+  height: 30px;
+}
+.item-description h5{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  font-style: bold;
+}
+.theteam{
+  background-color: lightgrey;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.vision{
+  padding: 3%;
+}
+
+#content{
+overflow-y: auto;
+overflow-x: hidden;
+max-height: 90vh;
+}
+.filter-box{
+  margin-top: 0.5%;
+
+}
+.filter-div{
+  padding: 0%;
+}
+.filter-a{
+  text-decoration: none;
+  background-color: white;
+  width: 100%;
+  height: 40px;
+}
+
+.social-media{
+  position: absolute;
+  bottom: 1%;
+  width: 100%;
+}
+.social-media div,a{
+  padding: 1%
+
+}
+.services div{
+  padding-top: 1%;
+}
+
+.services-hr{
+  width: 70%;
+  height: 2px;
+  border-color: transparent;
+}
+.services div:hover{
+  padding-bottom: 2%;
+  background-color: #DD9405;
+  transition: ease-out 0.5s;
+}
+#filter-active{
+  background-color: orange;
+  height: 40px;
+
+}
+.filter-button{
+  padding: 0;
+border: none;
+background: none;
+
+  height: 40px;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+
+}
+.filter-button:hover{
+  transition: ease-out 0.2s;
+  background-color:#DD9405;
+  height: 40px;
+  color: white;
+
+}
+#shoppingcart{
+  width: 140%;
+
+}
+.btn-header{
+  padding: 0;
+border: none;
+background: #0EA894;
+  color: white;
+  height: 30px;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+
+}
+.btn-header:hover{
+  transition: ease-out 0.2s;
+  background-color:#DD9405;
+  height: 30px;
+  color: white;
+
+}
+.btn-reserve{
+  padding: 0;
+border: none;
+background: #0EA894;
+  color: white;
+  height: 30px;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+
+}
+.btn-reserve:hover{
+  transition: ease-out 0.2s;
+  height: 40px;
+  color: white;
+
+}
+
+.logger{
+		background-color:rgba(255,255,255,0.5);
+}
+.logger1{
+		background-color:rgba(255,255,255,0.7);
+}
+
+#textpropos {
+	background-color: rgba(255,255,255,0.5);
+	height: 80vh;
+	line-height: 1.5em;
+}
+
+
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+.col-sm-3 a {
+    border: 1px solid transparent;
+    border-radius: 0;
+    transition: all 3s ease;
+}
+
+.col-sm-3 a:hover {
+    border: 1px solid #ff4647;
+    border-radius: 100% 60% / 30% 10%;
+    background: linear-gradient(rgba(56,123,131,0.7),rgba(56,123,131,0.7));
+}
+
+#slider-thumbs{
+  overflow-y: auto;
+  height: 90vh;
+}
+
+#slider-thumbs:hover{
+background-color: lightgrey;
+transition: ease-out 0.5s;
+}
+.vid{
+  margin:0%;
+  padding: 0%;
+}
+.vids{
+  overflow-x: auto;
+}
